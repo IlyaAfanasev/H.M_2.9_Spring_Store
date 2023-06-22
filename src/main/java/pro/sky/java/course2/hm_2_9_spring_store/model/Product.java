@@ -4,7 +4,7 @@ public class Product {
     private final String title;
 
     public Product(String title) {
-        this.title=title;
+        this.title = title;
     }
 
     public String getTitle() {

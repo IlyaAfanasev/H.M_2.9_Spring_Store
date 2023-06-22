@@ -10,7 +10,7 @@ public class Purchases {
     private final Map<Integer, Product> purchases;
 
     public Purchases() {
-        this.purchases=new HashMap<>(Map.of(
+        this.purchases = new HashMap<>(Map.of(
                 1, new Product("Футболка"),
                 2, new Product("Бeйсболка"),
                 3, new Product("Кроссовки"),
@@ -22,7 +22,9 @@ public class Purchases {
     }
 
 
-
+    public Map<Integer, Product> getPurchases() {
+        return purchases;
+    }
 
 
 }
